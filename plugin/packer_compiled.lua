@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/kangdy25/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/kangdy25/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/kangdy25/.local/share/nvim/site/pack/packer/start/nvim-cmp",

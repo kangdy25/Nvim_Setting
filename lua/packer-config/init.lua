@@ -1,5 +1,6 @@
 return require'packer'.startup(function() 
     use 'wbthomason/packer.nvim'
+    use { "EdenEast/nightfox.nvim", tag = "v1.0.0" } -- Packer
     use 'kyazdani42/nvim-web-devicons'
     use 'kyazdani42/nvim-tree.lua' 
     use 'neovim/nvim-lspconfig'
