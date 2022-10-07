@@ -90,6 +90,8 @@ local groups = {
   },
 }
 
+-- Customizing Themes
+
 -- Default options
 require('nightfox').setup({
   options = {
@@ -104,7 +106,7 @@ require('nightfox').setup({
       conditionals = "NONE",
       constants = "NONE",
       functions = "NONE",
-      keywords = "NONE",
+      keywords = "bold",
       numbers = "NONE",
       operators = "NONE",
       strings = "NONE",
@@ -120,7 +122,7 @@ require('nightfox').setup({
       -- ...
     },
   },
-  palettes = palettes,
+  palettes = nightfox,
   specs = specs,
   groups = groups,
 })
