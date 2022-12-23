@@ -1,6 +1,6 @@
 return require'packer'.startup(function() 
     use 'wbthomason/packer.nvim'
-    use { "EdenEast/nightfox.nvim", tag = "v1.0.0" } -- Packer
+    use { "EdenEast/nightfox.nvim" } -- Packer
     use {
       'nvim-lualine/lualine.nvim',
       requires = { 'kyazdani42/nvim-web-devicons', opt = true }
